@@ -1,13 +1,15 @@
-Feature: loguin success
-  As a user loguin success in the page
+Feature: login
+  As a user login success
 
-  Scenario Outline: loguin success
+  Scenario Outline: login success
     Given the user enter the page
-    When the user enter the <user> as user and <password> as password
-    Then the user view the home page
+    When the user enter the <email> as email
+    And the user enter the <password> as password
+    Then the user looks at the home page
 
     Examples:
-      | user  | password  |
-      | kevin | 123456789 |
+      | email | password  |
+      | kevin | kev123456 |
+
 
 
