@@ -148,7 +148,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-07-2024 18:05</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-07-2024 18:57</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -178,9 +178,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon fa-2x' title='PENDING'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="pending-color">
+                                <span class="success-color">
                                     login success
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -198,9 +198,49 @@
 
     <div class="clr"></div>
 
+        <div class="story-title">
+            <h3 class="story-header">Scenario Outline</h3>
+
+            <div class="scenario">Given the user enter the page<br>When the user enter the &lt;email&gt; as email<br>And the user enter the &lt;password&gt; as password<br>Then the user looks at the &lt;message&gt; as message</div>
+
+        </div>
 
     <div id="beforetable"></div>
 
+
+            <h3 class="story-header">Examples:&nbsp;</h3>
+                <div class="requirementNarrative"></div>
+
+
+                <p class="example-tag">
+                </p>
+
+            <div class="example-table test-report">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                            <th>Message</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#0">1</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">test</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">test123</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">Thank you for Loggin.</a>
+                                </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
     <div id="tablecontents">
         <div>
@@ -219,18 +259,49 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-PENDING">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                                   style="display:block;">
+                                    <span class="top-level-step">
+                                                Example: {email=test, password=test123, message=Thank you for Loggin.}
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">8.34s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection0" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-0"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
+                                    <span class="nested-group-step">
                                                 Given the user enter the page
                                         </span>
                                 <span class="evidence">
@@ -238,79 +309,83 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">PENDING</span></td>
-                        <td width="100"><span class="top-level-step">0.01s</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">6.06s</span></td>
                     </tr>
-                    <tr class="test-IGNORED">
+                    <tr class="test-SUCCESS">
 
-                        <td width="50" class="step-icon">
-                            <a name="1"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
+                        <td width="70" class="step-icon">
+                            <a name="0-1"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
-                                                When the user enter the &lt;email&gt; as email
+                                    <span class="nested-group-step">
+                                                When the user enter the test as email
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">IGNORED</span></td>
-                        <td width="100"><span class="top-level-step">0s</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.13s</span></td>
                     </tr>
-                    <tr class="test-IGNORED">
+                    <tr class="test-SUCCESS">
 
-                        <td width="50" class="step-icon">
-                            <a name="2"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
+                        <td width="70" class="step-icon">
+                            <a name="0-2"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
-                                                And the user enter the &lt;password&gt; as password
+                                    <span class="nested-group-step">
+                                                And the user enter the test123 as password
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">IGNORED</span></td>
-                        <td width="100"><span class="top-level-step">0.01s</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">2.05s</span></td>
                     </tr>
-                    <tr class="test-IGNORED">
+                    <tr class="test-SUCCESS">
 
-                        <td width="50" class="step-icon">
-                            <a name="3"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
+                        <td width="70" class="step-icon">
+                            <a name="0-3"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
-                                                Then the user looks at the home page
+                                    <span class="nested-group-step">
+                                                Then the user looks at the Thank you for Loggin. as message
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">IGNORED</span></td>
-                        <td width="100"><span class="top-level-step">0s</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.05s</span></td>
                     </tr>
-                <tr class="test-PENDING">
+
+                                </table>
+                            </td>
+                        </tr>
+                <tr class="test-SUCCESS">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>PENDING</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.16s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>8.55s</em></span></td>
                 </tr>
 
             </table>

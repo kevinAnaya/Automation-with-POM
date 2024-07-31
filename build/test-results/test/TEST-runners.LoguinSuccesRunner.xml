@@ -2,39 +2,9 @@
 <testsuite name="runners.LoguinSuccesRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="QV-3985" time="0.0">
   <properties/>
   <system-out><![CDATA[
-?[33mUndefined scenarios:?[0m
-file:///C:/Users/KevinDavidAnayaNegre/Documents/POM/mercurytoursPOM/src/test/resources/features/loginSuccess.feature:4 # login success
-
-1 Scenarios (?[33m1 undefined?[0m)
-4 Steps (?[36m3 skipped?[0m, ?[33m1 undefined?[0m)
-0m0,650s
-
-
-You can implement missing steps with the snippets below:
-
-@Given("the user enter the page")
-public void theUserEnterThePage() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-@When("the user enter the <email> as email")
-public void theUserEnterTheEmailAsEmail() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-@When("the user enter the <password> as password")
-public void theUserEnterThePasswordAsPassword() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-@Then("the user looks at the home page")
-public void theUserLooksAtTheHomePage() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+1 Scenarios (?[32m1 passed?[0m)
+4 Steps (?[32m4 passed?[0m)
+0m9,196s
 
 
 ]]></system-out>

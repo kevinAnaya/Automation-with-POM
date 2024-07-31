@@ -5,11 +5,11 @@ Feature: login
     Given the user enter the page
     When the user enter the <email> as email
     And the user enter the <password> as password
-    Then the user looks at the home page
+    Then the user looks at the <message> as message
 
     Examples:
-      | email | password  |
-      | kevin | kev123456 |
+      | email | password  | message               |
+      | test | test123 | Thank you for Loggin. |
 
 
 
