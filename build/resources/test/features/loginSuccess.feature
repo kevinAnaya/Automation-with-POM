@@ -8,8 +8,8 @@ Feature: login
     Then the user looks at the <message> as message
 
     Examples:
-      | email | password  | message               |
-      | test | test123 | Thank you for Loggin. |
+      | email | password | message               |
+      | test  | test123  | Thank you for Loggin. |
 
 
 
